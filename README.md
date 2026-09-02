@@ -1,4 +1,4 @@
-# Product Performance, Return Rate & Margin Analysis
+# Product Performance Analysis
 
 ## 📌 Project Overview
 
