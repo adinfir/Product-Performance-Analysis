@@ -2,7 +2,7 @@
 
 ## 📌 Project Overview
 
-This project analyzes **product performance across categories and brands** using the TheLook Ecommerce public dataset to evaluate product return behavior, profitability, and cross-category purchase patterns.
+This project analyzes **product performance across categories and brands over a 24-month period (January 2024 – December 2025)** using the TheLook Ecommerce public dataset to evaluate product return behavior, profitability, and cross-category purchase patterns.
 
 The analysis focuses on identifying **high-return products and brands, profitable product categories, absolute margin contribution, and frequently co-purchased category pairs** to support inventory prioritization, pricing strategy, product optimization, and bundling/upsell opportunities.
 
@@ -177,261 +177,132 @@ This metric is used to identify **cross-selling and bundling opportunities**.
 
 ## 📈 Insight
 
-### 🔄 Overall Product Return Performance
-
-The overall blended return rate was **10.69%** across approximately **167K** items sold.
-
-The highest return rate categories were:
-
-- **Jumpsuits & Rompers  13.59%**
-- **Plus  11.93%**
-- **Blazers & Jackets  11.36%**
-
-These categories have return rates above the overall portfolio average and may require further investigation into **product fit, sizing, product descriptions, quality, or customer expectations**.
----
-
-### ✅ Lowest Return Rate Category
-
-**Suits** recorded the lowest return rate at **9.59%**.
-
-The relatively low return rate may indicate stronger product-market fit, better size confidence, or lower expectation gaps compared with other categories.
-
-This category can serve as a benchmark when evaluating product attributes associated with lower return behavior.
-
----
-
-### ⚠️ High-Return Brands
-
-At the brand level, **Mountain Khakis Pants** recorded a return rate of approximately **30.3%**, **while Swim Carve Designs** recorded approximately **26.7%**.
-
-These return rates are significantly above the overall portfolio average and warrant further investigation, particularly around:
-
-- Product sizing
-- Product fit
-- Product descriptions
-- Product quality
-- Customer expectations
-
-Reducing return rates for these brands could help improve both customer experience and operational efficiency.
-
----
-
-### 📦 Highest Volume of Returned Items
-
-**Speedo** recorded the highest number of returned items at **119 items**, followed by **Motherhood Maternity** with **116 returned items**.
-
-Although their return rates were approximately **10–11%**, the high absolute number of returns indicates a meaningful operational impact.
-
-These brands may warrant investigation into **fulfillment quality, product expectations, sizing, and return drivers**.
-
----
-
-### 💰 Overall Gross Margin
-
-The overall gross margin was approximately **51.85%**, indicating a healthy level of profitability across the analyzed product portfolio.
-
-However, profitability varies significantly between categories, making category-level margin analysis important for determining which products should receive greater strategic focus.
-
----
-
-### 📈 Highest Margin Categories
-
-**Blazers & Jackets** and **Skirts** were among the highest-margin categories, with gross margin percentages of:
-
-- **Blazers & Jackets = 62.22%**
-- **Skirts = 59.95%**
-
-These categories demonstrate strong profitability per unit despite not necessarily being the highest-revenue categories.
-
-They may represent attractive opportunities for **inventory prioritization, merchandising, and promotional investment**.
-
----
-
-### 📉 Lowest Margin Categories
-
-The lowest-margin categories identified were:
-
-- Clothing Sets = 38.47%
-- Suits = 39.54%
-- Socks = 39.63%
-
-These categories generate considerably lower gross margin percentages compared with the overall portfolio.
-
-Potential actions include **pricing review, supplier cost optimization, promotional strategy adjustment, or reduced inventory focus**.
-
----
-
-### 🏆 Highest Absolute Margin Contributors
-
-**Outerwear & Coats* generated the highest absolute margin at approximately **$184K**, followed by **Jeans** at approximately **$148K**.
-
-These two categories represent important contributors to overall profitability.
-
-While margin percentage measures profitability efficiency, absolute margin highlights categories that contribute the greatest amount of profit to the business.
-
-Therefore, **Outerwear & Coats and Jeans can be considered key revenue and profit backbones of the product portfolio**.
-
----
-### 🛍️ Top Cross-Sell Category Pairs
-
-Market basket analysis at the category level identified the following top co-purchased category pairs:
-
-| Rank | Category Pair        | Bought Together |
-| ---: | -------------------- | --------------: |
-|    1 | Jeans + Sweaters     |            184x |
-|    2 | Shorts + Tops & Tees |            179x |
-|    3 | Jeans + Tops & Tees  |            174x |
-
-These category combinations represent strong opportunities for:
-
-* Product bundling
-* Cross-selling
-* Recommendation systems
-* Promotional campaigns
-* Merchandising placement
-
-For example, customers purchasing **Jeans** could be targeted with **Sweaters** or **Tops & Tees** recommendations.
-
----
-
-### 👕 Fashion Hoodies & Sweatshirts as a Complementary Category
-
-**Fashion Hoodies & Sweatshirts** appeared in **4 of the top 10 category pairs** identified by the market basket analysis.
-
-This indicates that the category has strong purchasing relationships with multiple other product categories.
-
-As a result, **Fashion Hoodies & Sweatshirts** could be used as an **anchor category for bundle promotions and cross-selling campaigns**.
+* Overall blended return rate was **12.00%** across **59,846 items**, with **Jumpsuits & Rompers (16.50%)**, **Pants & Capris (15.54%)**, and **Skirts (14.94%)** recording the highest return rates.
+* **Suits (10.03%)** and **Suits & Sport Coats (10.76%)** had the lowest return rates, indicating relatively lower return exposure among these categories.
+* At brand level, **MJ Soffe Active (28.2%)**, **Calvin Klein Socks (20.8%)**, and **Casual Moments Sleep & Lounge (20.8%)** showed the highest return rates, making them priority candidates for product, sizing, or quality review.
+* **Speedo (54 returned items)**, **Carhartt (49)**, and **Motherhood Maternity (47)** generated the highest return volumes. Although their return rates are not necessarily the highest, the absolute volume indicates a larger operational or customer-expectation impact.
+* Overall gross margin reached **51.99%**, indicating a healthy margin profile across the analyzed product portfolio.
+* **Blazers & Jackets (61.9%)**, **Skirts (60.3%)**, and **Suits & Sport Coats (60.0%)** delivered the highest margin percentages, indicating strong profitability relative to their sales.
+* **Clothing Sets (38.6%)**, **Suits (39.7%)**, and **Socks (39.9%)** recorded the lowest margin percentages, making them potential candidates for pricing or assortment review.
+* **Outerwear & Coats** generated the highest absolute margin at **$74.9K**, followed by **Jeans ($55.1K)** and **Sweaters ($42.7K)**. These categories represent the strongest contributors to overall catalog profitability.
+* The strongest category co-purchase combinations were **Jeans + Tops & Tees (98x)**, **Fashion Hoodies & Sweatshirts + Tops & Tees (73x)**, and **Fashion Hoodies & Sweatshirts + Jeans (73x)**, highlighting potential bundle and cross-sell opportunities.
+* **Fashion Hoodies & Sweatshirts** appeared in **5 of the top 10 category pairs**, making it the most frequently connected category and a strong anchor for bundle or recommendation strategies.
 
 ---
 
 ## 🧮 SQL Techniques Demonstrated
 
-This project demonstrates practical SQL techniques commonly used in Data Analyst workflows.
+### 1. CTE (Common Table Expression)
 
-### CTE
+Used multiple CTEs to separate analysis into logical stages, including total items, returned items, category profitability, and product basket construction.
 
-CTEs were used to separate different analytical stages, including total item calculations, returned item calculations, margin analysis, and market basket analysis.
-
-```sql
-WITH all_order AS (
-    SELECT
-        b.category,
-        COALESCE(b.brand, 'Unknown') AS brand,
-        COUNT(a.product_id) AS all_total_item
-    FROM `bigquery-public-data.thelook_ecommerce.order_items` a
-    JOIN `bigquery-public-data.thelook_ecommerce.products` b
-        ON a.product_id = b.id
-    GROUP BY
-        b.category,
-        b.brand
-)
+```sql id="c2j8x4"
+WITH all_order AS (...),
+returned AS (...)
 ```
 
-### JOIN
+### 2. Date Filtering with `FORMAT_DATE()`
 
-`JOIN` was used to connect transaction-level order items with product attributes.
+Restricted the analysis to transactions from **2024–2025** using year-based filtering on `created_at`.
 
-```sql
-JOIN `bigquery-public-data.thelook_ecommerce.products` b
-    ON a.product_id = b.id
+```sql id="m4n7q2"
+WHERE FORMAT_DATE('%Y', created_at) IN ('2024', '2025')
 ```
 
-This allows transaction records to be analyzed based on product category and brand.
+### 3. `JOIN`
 
-### COALESCE
+Joined `order_items` with `products` using `product_id` and product `id` to combine transaction and product attributes.
 
-`COALESCE()` was used to handle missing brand values by assigning them to an `Unknown` category.
+```sql id="p8v3k1"
+JOIN bigquery-public-data.thelook_ecommerce.products b
+  ON a.product_id = b.id
+```
 
-```sql
+### 4. Aggregation & `GROUP BY`
+
+Used aggregation functions including `COUNT()`, `COUNT(DISTINCT)`, and `SUM()` to calculate item volume, returned items, revenue, cost, and category-level purchase combinations.
+
+```sql id="q6t2r9"
+COUNT(a.order_id) AS total_order,
+SUM(a.sale_price) AS revenue,
+SUM(b.cost) AS cost
+```
+
+### 5. `COALESCE` / `IFNULL`
+
+Handled missing brand values and potential null results in the return-rate calculation.
+
+```sql id="w1k5d7"
 COALESCE(b.brand, 'Unknown') AS brand
 ```
 
-This prevents missing brand values from being excluded from the brand-level analysis.
+and:
 
-### Conditional Filtering
-
-The `WHERE` clause was used to isolate returned items and completed transactions.
-
-```sql
-WHERE a.status = 'Returned'
-```
-
-For profitability analysis:
-
-```sql
-WHERE a.status = 'Complete'
-```
-
-This ensures that revenue and margin calculations are based on completed transactions.
-
-### Return Rate Calculation
-
-Return rate was calculated by comparing returned items against total items.
-
-```sql
-ROUND(
-    b.total_item_return / a.all_total_item * 100,
-    2
+```sql id="e9r4u6"
+IFNULL(
+  ROUND(b.total_item_return / a.all_total_item * 100, 2),
+  0
 ) AS return_rate
 ```
 
-This metric allows return performance to be compared across different categories and brands.
+### 6. Ratio & Percentage Calculations
 
-### Gross Margin Calculation
+Calculated return rate and gross margin percentage directly from aggregated metrics.
 
-Gross margin was calculated as revenue minus product cost.
+**Return Rate:**
 
-```sql
+```sql id="f3a8c2"
 ROUND(
-    revenue - cost,
-    2
-) AS margin
+  b.total_item_return / a.all_total_item * 100,
+  2
+) AS return_rate
 ```
 
-Gross margin percentage was then calculated as:
+**Gross Margin %:**
 
-```sql
+```sql id="h7d1m5"
 ROUND(
-    (revenue - cost) / revenue * 100,
-    2
+  (revenue - cost) / revenue * 100,
+  2
 ) AS margin_pct
 ```
 
-This provides both absolute profitability and profitability efficiency.
+### 7. Gross Margin Calculation
 
-### COUNT DISTINCT
+Calculated both absolute margin and margin percentage from revenue and product cost.
 
-`COUNT(DISTINCT)` was used in the market basket analysis to ensure that each category pair was counted once per order.
+```sql id="u2b6n8"
+revenue - cost AS margin
+```
 
-```sql
+### 8. Self-JOIN for Market Basket Analysis
+
+Joined the basket dataset to itself using the same `order_id` to identify category pairs purchased within the same order.
+
+```sql id="z5c9x3"
+JOIN basket b
+  ON a.order_id = b.order_id
+  AND a.category < b.category
+```
+
+The condition `a.category < b.category` prevents duplicate or reversed pairs such as `Jeans + Tops & Tees` and `Tops & Tees + Jeans`.
+
+### 9. `COUNT(DISTINCT)` for Co-Purchase Frequency
+
+Counted distinct orders containing each category pair to measure how frequently two categories were purchased together.
+
+```sql id="r4k7p2"
 COUNT(DISTINCT a.order_id) AS bought_together
 ```
 
-This prevents multiple products from the same category within an order from artificially increasing the category-pair frequency.
+### 10. `ORDER BY` for Ranking
 
-### Market Basket Analysis
+Used descending sorting to identify the highest-return-volume brands, highest-margin categories, and most frequently co-purchased category pairs.
 
-A self-join was used to identify product categories purchased together within the same order.
-
-```sql
-FROM basket a
-JOIN basket b
-    ON a.order_id = b.order_id
-    AND a.category < b.category
+```sql id="n6v2s8"
+ORDER BY bought_together DESC
 ```
 
-The condition:
-
-```sql
-a.category < b.category
-```
-
-ensures that each category pair is counted only once and prevents duplicate combinations such as:
-
-```text
-Jeans + Sweaters
-Sweaters + Jeans
-```
 
 ---
 
@@ -452,11 +323,11 @@ Product-Performance-Analysis/
 │   └── Preview Table products the_look ecommerce.jpeg
 │
 └── dashboard/
-│   └── dashboard.jpeg
+│   └── dashboard.png
 └── Output/
-    └── Output Query 1.jpeg
-    └── Output Query 2.jpeg
-    └── Output Query 3.jpeg
+    └── Output Query 1.png
+    └── Output Query 2.png
+    └── Output Query 3.png
 ```
 
 > The project uses the public TheLook Ecommerce dataset available through Google BigQuery. No private customer transaction data is included in this repository.
