@@ -82,7 +82,7 @@ products
     │ id = product_id
     ▼
 order_items
-
+```
 This relationship allows order-level metrics to be combined with item-level sales and product attributes.
 
 The resulting dataset can be used to evaluate **return behavior, profitability, and cross-category purchasing patterns**.
@@ -177,16 +177,109 @@ This metric is used to identify **cross-selling and bundling opportunities**.
 
 ## 📈 Insight
 
-* Overall blended return rate was **12.00%** across **59,846 items**, with **Jumpsuits & Rompers (16.50%)**, **Pants & Capris (15.54%)**, and **Skirts (14.94%)** recording the highest return rates.
-* **Suits (10.03%)** and **Suits & Sport Coats (10.76%)** had the lowest return rates, indicating relatively lower return exposure among these categories.
-* At brand level, **MJ Soffe Active (28.2%)**, **Calvin Klein Socks (20.8%)**, and **Casual Moments Sleep & Lounge (20.8%)** showed the highest return rates, making them priority candidates for product, sizing, or quality review.
-* **Speedo (54 returned items)**, **Carhartt (49)**, and **Motherhood Maternity (47)** generated the highest return volumes. Although their return rates are not necessarily the highest, the absolute volume indicates a larger operational or customer-expectation impact.
-* Overall gross margin reached **51.99%**, indicating a healthy margin profile across the analyzed product portfolio.
-* **Blazers & Jackets (61.9%)**, **Skirts (60.3%)**, and **Suits & Sport Coats (60.0%)** delivered the highest margin percentages, indicating strong profitability relative to their sales.
-* **Clothing Sets (38.6%)**, **Suits (39.7%)**, and **Socks (39.9%)** recorded the lowest margin percentages, making them potential candidates for pricing or assortment review.
-* **Outerwear & Coats** generated the highest absolute margin at **$74.9K**, followed by **Jeans ($55.1K)** and **Sweaters ($42.7K)**. These categories represent the strongest contributors to overall catalog profitability.
-* The strongest category co-purchase combinations were **Jeans + Tops & Tees (98x)**, **Fashion Hoodies & Sweatshirts + Tops & Tees (73x)**, and **Fashion Hoodies & Sweatshirts + Jeans (73x)**, highlighting potential bundle and cross-sell opportunities.
-* **Fashion Hoodies & Sweatshirts** appeared in **5 of the top 10 category pairs**, making it the most frequently connected category and a strong anchor for bundle or recommendation strategies.
+### 🔄 Overall Product Return Rate
+
+The overall blended return rate was **12.00% across 59,846 items** during the 2024–2025 analysis period.
+
+The highest return-rate categories were:
+
+* **Jumpsuits & Rompers — 16.50%**
+* **Pants & Capris — 15.54%**
+* **Skirts — 14.94%**
+
+These categories have relatively higher return exposure and may warrant further investigation into **product fit, sizing, quality, product descriptions, or customer expectations**.
+
+---
+
+### ✅ Categories With Lower Return Rates
+
+**Suits (10.03%)** and **Suits & Sport Coats (10.76%)** recorded the lowest return rates among the analyzed categories.
+
+Lower return rates may indicate stronger purchase confidence or better alignment between customer expectations and delivered products.
+
+These categories can provide useful benchmarks when investigating why other categories experience higher returns.
+
+---
+
+### 🚨 Brands With High Return Rates
+
+At brand level, **MJ Soffe Active (28.2%)**, **Calvin Klein Socks (20.8%)**, and **Casual Moments Sleep & Lounge (20.8%)** showed the highest return rates.
+
+These brands represent potential product-level quality or expectation issues and should be prioritized for **product, sizing, quality, or assortment review**.
+
+High return rates should be evaluated together with transaction volume to distinguish persistent issues from results driven by a small number of purchases.
+
+---
+
+### 📦 Brands With the Highest Return Volume
+
+**Speedo (54 returned items)**, **Carhartt (49)**, and **Motherhood Maternity (47)** recorded the highest numbers of returned items.
+
+Although their return rates are not necessarily the highest, the absolute return volume means these brands may create a larger operational impact through **reverse logistics, inventory handling, and potential revenue leakage**.
+
+This suggests that return management should consider both **return rate and return volume**, rather than relying on percentage alone.
+
+---
+
+### 💵 Overall Gross Margin Performance
+
+The overall gross margin reached **51.99%**, indicating a healthy margin profile across the analyzed product portfolio.
+
+However, profitability varies substantially between categories.
+
+This variation creates opportunities to balance **sales volume, margin contribution, and return exposure** when prioritizing products and categories.
+
+---
+
+### 📈 Categories With Highest Margin Percentage
+
+**Blazers & Jackets (61.9%)**, **Skirts (60.3%)**, and **Suits & Sport Coats (60.0%)** recorded the highest margin percentages.
+
+These categories generate relatively strong profitability per dollar of revenue and may be attractive for **assortment prioritization, promotional planning, and pricing strategy**.
+
+---
+
+### ⚠️ Categories With Lowest Margin Percentage
+
+**Clothing Sets (38.6%)**, **Suits (39.7%)**, and **Socks (39.9%)** recorded the lowest margin percentages.
+
+Lower margin percentages may limit profitability, particularly if these categories also require significant discounting or experience elevated return rates.
+
+These categories are potential candidates for **pricing review, cost optimization, or assortment evaluation**.
+
+---
+
+### 💰 Categories Driving Absolute Profit
+
+**Outerwear & Coats** generated the highest absolute margin at **$74.9K**, followed by **Jeans ($55.1K)** and **Sweaters ($42.7K)**.
+
+These three categories represent important contributors to total catalog profitability.
+
+Their combination of revenue generation and absolute margin makes them strong candidates for **inventory prioritization and continued commercial focus**.
+
+---
+
+### 🛍️ Strong Category Cross-Sell Opportunities
+
+The strongest category co-purchase combinations were:
+
+* **Jeans + Tops & Tees — 98 purchases together**
+* **Fashion Hoodies & Sweatshirts + Tops & Tees — 73**
+* **Fashion Hoodies & Sweatshirts + Jeans — 73**
+
+These purchase relationships indicate opportunities for **bundle promotions, cross-selling, and product recommendation strategies**.
+
+For example, customers purchasing Jeans could be targeted with complementary Tops & Tees or Fashion Hoodies & Sweatshirts.
+
+---
+
+### 🔗 Fashion Hoodies & Sweatshirts as a Cross-Sell Anchor
+
+**Fashion Hoodies & Sweatshirts appeared in 5 of the top 10 category pairs**, making it the most frequently connected category in the top co-purchase relationships.
+
+Its strong connectivity suggests that the category could serve as an **anchor product for bundle campaigns and recommendation strategies**, particularly alongside Jeans and Tops & Tees.
+
+This could help increase **basket size and cross-category purchase penetration**.
 
 ---
 
