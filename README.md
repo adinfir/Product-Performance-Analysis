@@ -275,11 +275,14 @@ For example, customers purchasing Jeans could be targeted with complementary Top
 
 ### 🔗 Fashion Hoodies & Sweatshirts as a Cross-Sell Anchor
 
-**Fashion Hoodies & Sweatshirts appeared in 5 of the top 10 category pairs**, making it the most frequently connected category in the top co-purchase relationships.
+**Fashion Hoodies & Sweatshirts appeared in 5 of the top 10 category pairs**, making it the most frequently connected category across the highest-volume co-purchase relationships.
 
-Its strong connectivity suggests that the category could serve as an **anchor product for bundle campaigns and recommendation strategies**, particularly alongside Jeans and Tops & Tees.
+Meanwhile, **Tops & Tees appeared in 4 of the top 10 pairs and formed the strongest individual relationship with Jeans**, with **98 co-purchases**.
 
-This could help increase **basket size and cross-category purchase penetration**.
+The strong connectivity of both categories suggests opportunities to use **Fashion Hoodies & Sweatshirts and Tops & Tees as anchor categories** for bundle campaigns, product recommendations, and cross-selling strategies.
+
+These combinations could help increase **basket size and cross-category purchase penetration**.
+
 
 ---
 
