@@ -201,23 +201,15 @@ These categories can provide useful benchmarks when investigating why other cate
 
 ---
 
-### 🚨 Brands With High Return Rates
+📦 Brands With the Highest Return Volume
 
-At brand level, **MJ Soffe Active (28.2%)**, **Calvin Klein Socks (20.8%)**, and **Casual Moments Sleep & Lounge (20.8%)** showed the highest return rates.
+At brand level, return performance was evaluated based on the number of returned items to identify brands with the largest operational impact.
 
-These brands represent potential product-level quality or expectation issues and should be prioritized for **product, sizing, quality, or assortment review**.
+Allegra K (237 returned items), Carhartt (117), Calvin Klein (109), Volcom (90), and Hanes (89) recorded the highest return volumes.
 
-High return rates should be evaluated together with transaction volume to distinguish persistent issues from results driven by a small number of purchases.
+High return volume may create greater operational impact through reverse logistics, inventory handling, and potential revenue leakage. These brands can therefore be prioritized for further review of product quality, sizing, assortment, and customer expectations.
 
----
-
-### 📦 Brands With the Highest Return Volume
-
-**Speedo (54 returned items)**, **Carhartt (49)**, and **Motherhood Maternity (47)** recorded the highest numbers of returned items.
-
-Although their return rates are not necessarily the highest, the absolute return volume means these brands may create a larger operational impact through **reverse logistics, inventory handling, and potential revenue leakage**.
-
-This suggests that return management should consider both **return rate and return volume**, rather than relying on percentage alone.
+Return volume should also be considered alongside total items and return rate to provide context and avoid interpreting the number of returned items in isolation.
 
 ---
 
